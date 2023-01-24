@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="Main_container">
+		<div id="header"><h2>Form Validation</h2></div>
+		<form id="My_form" action="login.html" onsubmit="return myf()">
+			Username <br> <input required id="User_name" type="text" onchange="change()"><br>
+			Password <br> <input required id="Pass_word" type="text" onchange="chec()"> <span id="er"></span><br>
+			Re-type Password <br> <input required id="Re_Password" type="text"onchange="chec1()"> <span id="er1"></span><br>
+			Mobile Number <br> +91 <input required id="mobile" type="text"> <br>
+			Email <br> <input required type="text" id="email"> <br>
+			Address  <br> <input required id="Address" type="text"> <br>
+			<button  type="submit" onclick="return for_check()">Signup</button>
+		</form>
+        <p>Created by Shiva</p>
+	</div>
+	<script src="script.js"></script>
+	
+</body>
+</html>

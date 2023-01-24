@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+
+    
+    background-image: linear-gradient(to left,rgb(18, 230, 230) 0%,rgb(74, 234, 138) 100%);
+}
+#Main_container{
+    position: relative;
+    border: 2px solid black;
+    width:25%;
+    margin:50px auto;
+    padding-left: 30px;
+    background-color: rgba(0,0,0,0.8);
+    color: aliceblue;
+    border-radius: 20px;
+    height: 610px;
+    font-size: small;
+    
+
+}
+#header{
+    position: inherit;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    
+}
+form input{
+    margin-top: 15px;
+    border:1px solid transparent;
+    border-bottom-color: rgb(245, 239, 239);
+    color: aliceblue;
+    background-color: transparent;
+    outline: transparent;
+    margin-bottom: 20px;
+    font-size: medium;
+    width: 70%;
+}
+button{
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 150px;
+    padding: 5px 20px ;
+    background-image: linear-gradient(to left,rgb(18, 230, 230) 0%,rgb(74, 234, 138) 100%);
+}
+#mobile{
+    width: 60%;
+}
+input:focus{
+    border-bottom-color:rgb(102, 95, 89);
+}
+
+p{
+    margin-left: 260px;
+    margin-top: 20px;
+    color: aquamarine;
+}
+#er #er1{
+    font-size: medium;
+    color:red;
+}
+@media only screen and (max-width:900px) {
+   
+    body {
+      background-image: linear-gradient(to right,rgb(233, 100, 224) 100%);
+    }
+}
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+
+  }
+  
+  #Main_container {
+    animation: 2s ease-out  1 slideInLeft;
+    background: rgb(45, 45, 45);
+    
+  }
+  
+  

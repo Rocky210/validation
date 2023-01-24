@@ -1,0 +1,49 @@
+body{
+    position: relative;
+    margin:0;
+    background-image: linear-gradient(to right,rgb(231, 136, 236) 0%,rgb(38, 229, 232) 100%);
+}
+#maincontainer{
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
+    width:30%;
+    border-width: 2px;
+    border-color: rgb(32, 154, 154);
+    box-shadow: 4px 4px rgb(8, 104, 159);
+    
+    border-radius: 10px;
+    margin:50px auto;
+    background-image: linear-gradient(to right,rgb(231, 136, 236) 0%,rgb(38, 229, 232) 100%);
+
+}
+form input{
+    
+    border-color:transparent transparent black ;
+    background: transparent;
+    outline: transparent;
+    width:60%;
+    color: bisque;
+    margin: 10px 0px;
+    
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+   /* {
+    animation: 1s ease-out 0s 1 slideInLeft;
+    background: #666;
+    padding: 40px;
+  }
+   */
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+  }
